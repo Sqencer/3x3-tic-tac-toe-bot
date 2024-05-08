@@ -189,6 +189,7 @@ def main():
     while True:
         print('pls enter vertical first')
         if x != '1':
+            x = '1'
             pass
         else:
             good = False
@@ -200,7 +201,7 @@ def main():
                     playermove(coor)
                     printboard()
                     good = True
-            x = '1'
+            
 
         if checkwinfull() == False:
             break
